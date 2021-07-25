@@ -1,0 +1,12 @@
+only angular client need "npm install" 
+
+notification trigger client send notification to socketcluster server to send msg to angular then throug a rpc call server 
+get the msg and send that to the angular
+
+1. start the socketcluster server
+
+2. start the angular app
+
+3. start the notification triggerClient 
+
+4. alert will pop out from angular app. which sended by notification_trigger_client ---> clusterServer ---> angular app
